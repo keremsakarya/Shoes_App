@@ -1,31 +1,21 @@
-# React + TypeScript + Vite
+# Shoes App 👟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository displays cards with data fetched from an API on the users' screen. Users can apply three different filters simultaneously to filter the cards. When a card is clicked, a detail page for that item is shown. This page includes product information, color and size selection, add to cart, and purchase buttons.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The React XSS library has been installed in this repository to protect against XSS attacks.
+- The product cards display whether the product is on sale, and if so, the discount amount, along with the old and current prices.
+- Users can filter shoes based on their desired criteria by applying up to three different filters simultaneously. Additionally, they can reset the filters by clicking the button below.
 
-## Expanding the ESLint configuration
+# Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React Router Dom
+- Query String
+- Hooks: useQuery, useSearchParams, useEffect, useState
+- Toggle Function
+- Status Check
 
-- Configure the top-level `parserOptions` property like this:
+# Screen GIF
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Shoes_App
+![0907 (1)](https://github.com/user-attachments/assets/daddfc9f-e703-4d8f-aaf8-871f266eeac7)
