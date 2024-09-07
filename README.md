@@ -6,7 +6,7 @@ This repository displays cards with data fetched from an API on the users' scree
 
 - The React XSS library has been installed in this repository to protect against XSS attacks.
 - The product cards display whether the product is on sale, and if so, the discount amount, along with the old and current prices.
-- Users can filter shoes based on their desired criteria by applying up to three different filters simultaneously. Additionally, they can reset the filters by clicking the button below.
+- Users can filter shoes based on their desired criteria by applying up to four different filters simultaneously. Additionally, they can reset the filters by clicking the button below.
 
 # Technologies Used
 
